@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<>
 <html lang="ar" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#2a0f17"><link rel="manifest" href="manifest.webmanifest">
@@ -34,7 +34,7 @@ nav button{display:block;width:100%;text-align:start;font-size:1.05em;padding:13
 <main id="app"></main><nav id="nav"></nav><dialog id="dlg"></dialog>
 <script>
 // ضع هنا معرّف Google (Client ID) من نوع Web application ليعمل الدخول لكل المستخدمين بلا إعداد. اتركه فارغاً لتعطيله.
-const GCID="";
+const GCID="96646685343-pefka7moejigd5890l846tkrl9jmcb4m.apps.googleusercontent.com";
 const cidOf=()=>GCID||S.cid||"";
 const TAG="مِرقَام… لأن لكل إنجاز بداية، ولكل هدف طريق.",KEY="mirqaam_v1";
 const TH={"برغندي":{bg:"#2a0f17",card:"#3d1623",btn:"#c9a24a",text:"#f5ecd9",icon:"#c9a24a",sub:"#8c3a4e"},"ليلي":{bg:"#0e0e10",card:"#1a1a1e",btn:"#d4af37",text:"#f2f2f2",icon:"#d4af37",sub:"#3a3a42"},"نهاري":{bg:"#f6f1e7",card:"#fffaf0",btn:"#7b1e3a",text:"#2b1a1f",icon:"#7b1e3a",sub:"#d9c7a3"},"محيط":{bg:"#0b1f2e",card:"#12324a",btn:"#38bdf8",text:"#eaf6ff",icon:"#38bdf8",sub:"#2c5d7c"},"غابة":{bg:"#0f2418",card:"#173524",btn:"#7ddc8a",text:"#ecf8ee",icon:"#7ddc8a",sub:"#2f6b45"},"بنفسجي":{bg:"#1c1030",card:"#2a1a48",btn:"#c084fc",text:"#f3eaff",icon:"#c084fc",sub:"#5b3a96"}};
@@ -335,3 +335,4 @@ const askName=()=>{if(!S.name)modal("أهلاً بك في مِرقَام",[{k:"n
 setTimeout(()=>{if(locked)return;if(!S.toured)tour();else askName()},3300);
 if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script></body></html>
+!DOCTYPE html
